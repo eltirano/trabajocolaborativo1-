@@ -1,0 +1,12 @@
+
+
+
+
+nav li { position:relative; float:left; list-style-type:none; }
+
+nav li a { display:block; padding:1px 1px; border-left:1px; border-right:1px solid #222; color:#eee; text-decoration:none; }
+
+
+nav ul ul { display:none; width:150%; position:absolute; left:0;}
+
+
