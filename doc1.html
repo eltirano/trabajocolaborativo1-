@@ -1,1 +1,155 @@
-aaaaa
+<!DOCTYPE html>
+<html lang="es" class"no-js">
+    <!-- comentario  -->
+    <head>
+ 		<meta charset="UTF-8">
+        <meta content="Alejandro Tirano Bernate" name="author"/>
+        <meta content="Pagina de curso de Disenos de Sitios Web" name="description" />
+        <link href="favicon.ico" rel="shortcut icon" type="image/x-icon" />
+        <title>Seguridad informatica</title>
+        <link rel="stylesheet" href="css/normalize.css">
+        <link href='http://fonts.googleapis.com/css?family=arial' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" href="css/nav.css">
+        <link rel="stylesheet" href="css/style.css">
+     </head>
+
+    <body>	
+        <Div id="contenidos">
+            <header>
+                <div id="apDiv1"><img src="img/banner.jpg" width="1000" height="168">
+                <div id="apDiv14"><a href="https://campus0a.unad.edu.co/campus0/login/index.php" target="_blank"><img src="img/campus.png" width="116" height="101"></a>                  </div>
+                  <div id="apDiv24">OVA Para curso de seguridad informatica</div>
+              </div>
+            </header>
+        	<p>&nbsp;</p>
+   			<p>&nbsp;</p>
+            <p>&nbsp;</p>
+    		<nav id="topNav">
+         <nav>
+              
+              <ul class="menu">
+                <li><a href="index.html" title="Ir a la página de inicio">Inicio</a></li>
+                <li><a class="menu">Lecturas</a>
+                <ul>
+                      <li><a href=doc1.html >Lectura 1</a></li>
+                        <li><a href="doc2.html" >Lectura 2</a></li>
+                        <li><a href="doc3.html" >Lectura 3</a></li>
+                       
+                    </ul>        
+                </li>
+                <li><a href="video.html" class="menu">Multimedia</a>
+                 
+                </li>
+                <li><a class="menu">Actividades</a>
+                <ul>
+                      <li><a href="au1.htmal" >Actividad 1</a></li>
+                      <li><a href="au2.html" >Actividad 2</a></li>                        
+                    </ul>        
+                </li>
+                <li><a class="menu">Autores</a>
+                <ul>
+                      <li><a href="mipa/mipagina.html" >Alejandro Tirano</a></li>
+                      <li><a href="#" >Autor 2</a></li>                        
+                    </ul>        
+                </li>
+                <div id="apDiv19">
+                <center>
+                  <div id="cuentavisitas"></div>
+            <script>yu=function(id){return document.getElementById(id);}
+              if(localStorage){
+              if(localStorage['visitas']==undefined){
+              localStorage['visitas']=0;
+              }var n=parseInt(localStorage['visitas']);localStorage['visitas']=1+n;
+              var num=localStorage['visitas'];
+              var mensaje=num + " visitas";
+               yu('cuentavisitas').innerHTML=mensaje;}
+                        </script>
+                </center></div>
+                <div id="apDiv4"><a id="l1" target="_blank" rel="nofollow" href="https://www.facebook.com/Universidad-Nacional-Abierta-y-a-Distancia-UNAD-285790428108305/"><img title="Facebook"border="0" src="img/facebook_aqu_32.png" alt="Facebook" /></a><a href="https://www.youtube.com/user/universidadunad" target="_blank"><img src="img/youtube.png" alt="YouTube" title="Twitter" border="0" /></a><span class="nsb_container"><a href="https://twitter.com/UniversidadUNAD" target="_blank"><img src=      "img/twitter_aqu_32.png" class="menu" title="Twitter" border="0" /></a></span></div> 
+              </ul>
+                 <div id="apDiv3">    
+                   <form method="get" action="http://www.google.es/search">
+                    <input type="hidden" name="ie" value="UTF-8" />
+                    <input type="hidden" name="oe" value="UTF-8" />
+                    <input type="text" id="s" name="q" value="" size="12" />
+                    <font size=-1>
+                    <input type="submit"  id="x" name="btnG" value="Buscar" />
+                    <input type="hidden" name="domains" value="https://estudios.unad.edu.co/ingenieria-de-sistemas" />
+                    <br />
+                    <input type="radio" name="sitesearch" value="" />
+                    <font color="white"> Internet</font>
+                    <input type="radio" name="sitesearch" value="https://estudios.unad.edu.co/ingenieria-de-sistemas" checked="checked" />
+                    <font color="white"> ECBTI </font>
+                   </form>
+                </div>
+             
+        </nav>
+        
+        <!--// Inclusión de los archivos Javascript -->
+    <script src="js/jquery.js"></script>
+        <script src="js/modernizr.js"></script>
+    <script>
+      (function($){
+        var nav = $("#topNav");
+        nav.find("li").each(function() {
+          if ($(this).find("ul").length > 0) {
+            $("<span>").text("^").appendTo($(this).children(":first"));
+            $(this).mouseenter(function() {
+              $(this).find("ul").stop(true, true).slideDown();
+            });
+            $(this).mouseleave(function() {
+              $(this).find("ul").stop(true, true).slideUp();
+            });
+          }
+        });
+      })(jQuery);
+    </script>
+    
+    <section>
+    <h2>SEGURIDAD INFORMATICA - UNAD ECBTI</h2>
+    <div src="https://www.youtube.com/embed/lskwU3kw29o" frameborder="0" allowfullscreen></div>
+    <div id="apDiv20"><a href="https://informacion.unad.edu.co/correo" target="_blank"><img src="img/rss_aqu_32.png" class="menu" title="Correo Institucional" border="0" /></a></div>
+    
+                <article>
+
+                    
+                    <p>
+                        Consejos de seguridad en internet: tenga su sistema al día actualice constantemente el sistema operativo y el software instalado especialmente el navegador web, los sistemas operativos y la mayoría de los programas utilizados tienen una función configurable de actualización
+Automática actívela, realicé copias de seguridad periódicas de su sistema y cree puntos
+de restauración al objeto de no perder información por incidentes de seguridad proteja su identidad utilice contraseñas fuertes de más de ocho caracteres combinando letras números mayúsculas y caracteres especiales, si recibe mensajes que piden el reenvío a sus conocidos informando de noticias llamativas o apelando a motivos filantrópicos desconfía muchos de ellos buscan captar direcciones de correo electrónico para campañas  comerciales y son un engaño, reduzca el riesgo de infecciones de malware utilice un software antivirus y un cortafuegos o firewall en la red  existen multitud de estas aplicaciones algunas de ellas gratuitas y de contrastada eficacia, no se preocupe por no tener la mejor preocúpese por no tenerla instalada si utiliza sistemas Windows trabajé con una cuenta de usuario que no tenga privilegios de administrador de esta forma evitará la posibilidad de instalación de muchos programas maliciosos, tenga especial cuidado con las redes p2p es una importante fuente de infección de malware analice con su antivirus todo lo que se descarga no habrá mensajes de correo electrónico no solicitados o de procedencia desconocida
+Elimine los directamente sin previsualizarlos utilice siempre software legal evite las descargas de programas de lugares no seguros de internet bajo el mensaje de gratis se esconden fuentes de malware evite que le estafen en la red compré siempre a través de sitios seguros y con acreditada
+Reputación desconfíe de vendedores que ofrecen súper ofertas busqué en la red referencias sobre los vendedores y los anuncios antes de realizar la compra sea precavido en las compras a usuarios que dicen residir en el extranjero y procura el pago contra entrega los sistemas de envío de dinero aportan al vendedor un alto grado de anonimato, no crea en las herencias loterías o inversiones millonarias que casualmente le han correspondido ni en los negocios piramidales
+Nunca acceda a la web del banco a través de enlaces de páginas o mensaje de correo
+la comunicación con los bancos siempre es a través de protocolos seguros https cuando se conecte al banco acuérdese de cerrar la sesión al salir desconfía de los mensajes de correo electrónico sms procedentes de supuestas entidades bancarias confirmé vía telefónica en su sucursal bancaria cualquier petición que reciba de datos de banca electrónica su privacidad en redes sociales en las redes sociales limite el acceso de la información que comparta a personas conocidas mis amigos cuanto más amplio sea el círculo de contactos amigos de mis amigos y todos los usuarios a mayores riesgos se expone no cuelgue fotografías privadas que no le gustaría que se difundieran una vez en la red no pueden retirarse sea prudente a la hora de suscribirse a grupos o eventos no sabemos a quién estamos permitiendo ver nuestros datos habilite la navegación segura https para dificultar el robo de contraseñas y escuchas en las comunicaciones
+si usted cree que ha sido testigo o víctima de un delito informático puede denunciar los hechos para que sean investigados 
+
+                    </p>
+      			</article>
+    </section>
+    <aside> 
+                <div id="apDiv5">
+                <div id="apDiv11">Nuestra UNAD</div>
+                </div>
+                <div id="apDiv6"><span style="text-align: justify;">
+                <iframe src='js/slider.html' width='260' height='180' frameborder='0'></iframe>    
+                </span>
+      			</div>
+              	<div id="apDiv7">
+                <div id="apDiv12">Ubicación Sede Nacional</div>
+      			</div>
+      			<div id="apDiv8"><iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d15908.191419159031!2d-74.0975768!3d4.5854329!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc1c38a35fe03bf87!2sUNAD+UNIVERSIDAD+NACIONAL+ABIERTA+Sede+Jos%C3%A9+Celestino+Mutis!5e0!3m2!1ses!2sco!4v1475599261440" width="260" height="180" frameborder="0" style="border:0" allowfullscreen></iframe></div>
+              <div id="apDiv15"></div>
+              <div id="apDiv16">Multimedia</div>
+      <div id="apDiv18"><iframe width="260" height="180" src="https://www.youtube.com/embed/miuRPehErB0" frameborder="0" allowfullscreen></iframe></div>
+    	</aside>
+		<Footer>
+          <div id="apDiv25">Para uso de la Universidad Nacional Abierta y a Distancia UNAD</div>
+          <div id="apDiv26">Elaborado por: grupo colaborativo 301122_14, estudiantes del programa Ing. de Sistemas </div>
+		  <div id="apDiv13"><img src="img/logoUNADgrisInferior.png" width="225" height="41"></div>
+		  <div id="apDiv27">CEAD Jose Acevedo Y Gomez Bogotá - 2016</div>
+    	</Footer>
+   </body>
+    <script src="js/modernizr.js"></script>   
+    <script src="js/prefixfree.min.js"></script>
+    <script src="js/jquery-2.1.1.js"></script>   
+</html>
